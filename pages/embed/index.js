@@ -13,10 +13,10 @@ export default function Date() {
         }}
       >
         <div style={{ height: 1000 }}>
-          Iframe Content (scroll down to see date picker)
+          Iframe Content (scroll down to see date picker.)
         </div>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <DesktopDatePicker />
+          <DesktopDatePicker disableAutoFocus={true} />
         </LocalizationProvider>
       </div>
     </>
