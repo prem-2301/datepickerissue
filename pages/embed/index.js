@@ -12,7 +12,9 @@ export default function Date() {
           alignItems: "center",
         }}
       >
-        <div style={{ height: 1000 }}>Iframe Content</div>
+        <div style={{ height: 1000 }}>
+          Iframe Content (scroll down to see date picker)
+        </div>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <DesktopDatePicker />
         </LocalizationProvider>
