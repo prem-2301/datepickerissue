@@ -16,7 +16,7 @@ export default function Date() {
           Iframe Content (scroll down to see date picker.)
         </div>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <DesktopDatePicker disableAutoFocus={true} />
+          <DesktopDatePicker disableAutoFocus={true} keepMounted={true} />
         </LocalizationProvider>
       </div>
     </>
